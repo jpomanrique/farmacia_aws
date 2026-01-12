@@ -70,17 +70,16 @@ Etapa 3:
 
 
 
-## ConclusÃ£o
-A implementaÃ§Ã£o de ferramentas na empresa *[Abstergo Industries] tem como esperado [Economia de recursos e custo, Escalabilidade, Elasticidade e Disponibilidade]*, o que aumentarÃ¡ a eficiência e a produtividade da empresa. Recomenda-se a continuidade da utilização das ferramentas implementadas e a busca por novas tecnologias que possam melhorar ainda mais os processos da empresa.
+## Conclusão
+A implementação de ferramentas na empresa *[Abstergo Industries] tem como esperado [Economia de recursos e custo, Escalabilidade, Elasticidade e Disponibilidade]*, o que aumentarÃ¡ a eficiência e a produtividade da empresa. Recomenda-se a continuidade da utilização das ferramentas implementadas e a busca por novas tecnologias que possam melhorar ainda mais os processos da empresa.
 
 ## Anexos
 
 [lista de anexos, como manuais, documentos, planilhas, entre outros]
 
-Assinatura do ResponsÃ¡vel pelo Projeto:
+Assinatura do Responsável pelo Projeto:
 
-[John Peter Oyardo Manrique]
-
+[John Peter Oyardo Manrique jpomanrique@gmail.com]
 
 
 
