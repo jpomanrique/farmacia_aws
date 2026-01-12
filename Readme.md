@@ -86,7 +86,7 @@ Esse fluxo garante continuidade operacional mesmo em períodos de alta demanda, 
 
 Esta seção apresenta arquiteturas complementares adotadas na solução, com foco em autenticação segura de usuários, upload direto de arquivos e processamento escalável, utilizando exclusivamente serviços gerenciados da AWS. Essas arquiteturas reforçam os princípios de segurança, simplicidade operacional e escalabilidade definidos no modelo proposto.
  
-Figura 1 – Arquitetura Serverless de Autenticação e Gerenciamento Seguro de Conteúdo
+Figura 1 – Arquitetura Serverless de Autenticação e Gerenciamento Seguro de Conteúdo {Figura1.png}
 
 Nesta arquitetura, o usuário acessa uma aplicação web desenvolvida em React e hospedada no AWS Amplify, que atua como camada de apresentação do sistema. O processo de autenticação e autorização é realizado pelo Amazon Cognito, responsável pelo gerenciamento de identidades, controle de acesso e emissão de credenciais temporárias.
 Após a autenticação bem-sucedida, o usuário pode realizar o upload de arquivos diretamente para um bucket do Amazon S3, utilizando credenciais temporárias e de curta duração fornecidas pelo Cognito. Esse modelo elimina completamente a necessidade de servidores intermediários para manipulação de arquivos, reduzindo custos, aumentando a escalabilidade e fortalecendo a segurança da solução.
@@ -97,7 +97,7 @@ Do ponto de vista arquitetural, essa abordagem:
 •	Escala automaticamente conforme o volume de uploads;
 •	Reduz latência e custos operacionais.
  
-Figura 2 – Arquitetura Serverless com APIs e Processamento Avançado
+Figura 2 – Arquitetura Serverless com APIs e Processamento Avançado {Figura2.png}
 
 Em cenários que demandam processamento adicional — como validação de documentos, integração com sistemas externos ou análises inteligentes — a arquitetura pode ser estendida de forma serverless, utilizando APIs (REST ou GraphQL) e funções sob demanda.
 Essa extensão permite que a solução evolua incrementalmente, mantendo o mesmo modelo de custos variáveis e sem introduzir dependências de infraestrutura fixa, preservando os princípios centrais da arquitetura proposta.
@@ -136,7 +136,7 @@ A implementação de ferramentas na empresa *[Abstergo Industries] tem como espe
 
 ## Anexos
 
-[lista de anexos, como manuais, documentos, planilhas, entre outros]
+[/anexos/FarmaciacloudAWS.pdf, Figura1.png, Figura2.png, https://aws.amazon.com/]
 
 Assinatura do Responsável pelo Projeto:
 
