@@ -20,7 +20,7 @@ O objetivo é reduzir custos imediatos, aumentar a previsibilidade financeira e 
 
 # Arquitetura da Solução AWS
 
-A solução proposta estabelece os princípios para o desenvolvimento do modelo de negócios em nuvem, considerando a segurança dos dados, das transações, dos processos de pagamento e o desenvolvimento eficiente de cada uma das necessidades da empresa, sem depender de infra-estrutura física própria para a implementação do modelo de negócio em cloud, considerando:
+A solução proposta estabelece os princípios para o desenvolvimento do modelo de negócios em nuvem, considerando a segurança dos dados, das transações, dos processos de pagamento e o desenvolvimento eficiente de cada uma das necessidades da empresa, sem depender de infra-estrutura física própria realizando uma implementação do modelo de negócio em cloud, considerando:
 
 1.	Pagamento sob demanda (On-Demand Cost Model)
 2.	Redução de investimentos iniciais (CapEx)
