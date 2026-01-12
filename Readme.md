@@ -71,6 +71,41 @@ A infraestrutura tradicional exige elevado investimento inicial e mantém custos
 Em contraste, a solução baseada em AWS elimina completamente o investimento inicial (CapEx), reduz significativamente os custos mensais e ajusta-se automaticamente ao volume real de pedidos e acessos ao sistema. Do ponto de vista financeiro, essa abordagem melhora o fluxo de caixa, aumenta a previsibilidade orçamentária e reduz riscos operacionais, tornando-se mais adequada para o crescimento sustentável da empresa farmacêutica.
 Dessa forma, a adoção da AWS converte custos fixos elevados em custos variáveis previsíveis, melhora o controle financeiro, reduz a necessidade de capital imobilizado e diminui riscos operacionais, oferecendo uma base tecnológica escalável, segura e financeiramente mais eficiente para o crescimento da empresa farmacêutica.
 
+# Fluxo Operacional Integrado do Hub de Distribuição
+
+De forma simplificada, o funcionamento do hub de distribuição ocorre conforme o fluxo a seguir:
+1.	Farmácias clientes acessam o portal web do hub, hospedado e gerenciado pelo AWS Amplify.
+2.	As solicitações de pedidos e consultas de estoque são processadas pela aplicação e registradas de forma transacional no Amazon RDS.
+3.	Catálogos de produtos, documentos fiscais e relatórios gerenciais são armazenados e acessados diretamente a partir do Amazon S3.
+4.	A infraestrutura ajusta-se automaticamente ao volume de acessos e transações, sem intervenção manual.
+5.	A empresa incorre apenas nos custos correspondentes aos recursos efetivamente utilizados.
+
+Esse fluxo garante continuidade operacional mesmo em períodos de alta demanda, mantendo desempenho estável e eliminando a necessidade de investimentos antecipados em infraestrutura.
+
+# Arquiteturas AWS – Autenticação, Upload e Processamento
+
+Esta seção apresenta arquiteturas complementares adotadas na solução, com foco em autenticação segura de usuários, upload direto de arquivos e processamento escalável, utilizando exclusivamente serviços gerenciados da AWS. Essas arquiteturas reforçam os princípios de segurança, simplicidade operacional e escalabilidade definidos no modelo proposto.
+ 
+Figura 1 – Arquitetura Serverless de Autenticação e Gerenciamento Seguro de Conteúdo
+
+Nesta arquitetura, o usuário acessa uma aplicação web desenvolvida em React e hospedada no AWS Amplify, que atua como camada de apresentação do sistema. O processo de autenticação e autorização é realizado pelo Amazon Cognito, responsável pelo gerenciamento de identidades, controle de acesso e emissão de credenciais temporárias.
+Após a autenticação bem-sucedida, o usuário pode realizar o upload de arquivos diretamente para um bucket do Amazon S3, utilizando credenciais temporárias e de curta duração fornecidas pelo Cognito. Esse modelo elimina completamente a necessidade de servidores intermediários para manipulação de arquivos, reduzindo custos, aumentando a escalabilidade e fortalecendo a segurança da solução.
+
+Do ponto de vista arquitetural, essa abordagem:
+•	Minimiza a superfície de ataque;
+•	Garante isolamento de permissões por usuário;
+•	Escala automaticamente conforme o volume de uploads;
+•	Reduz latência e custos operacionais.
+ 
+Figura 2 – Arquitetura Serverless com APIs e Processamento Avançado
+
+Em cenários que demandam processamento adicional — como validação de documentos, integração com sistemas externos ou análises inteligentes — a arquitetura pode ser estendida de forma serverless, utilizando APIs (REST ou GraphQL) e funções sob demanda.
+Essa extensão permite que a solução evolua incrementalmente, mantendo o mesmo modelo de custos variáveis e sem introduzir dependências de infraestrutura fixa, preservando os princípios centrais da arquitetura proposta.
+
+# Síntese Executiva da Arquitetura
+Em termos práticos, a arquitetura proposta transforma a infraestrutura da empresa de um modelo tradicional, rígido e baseado em ativos físicos, para um modelo flexível, escalável e orientado a custos variáveis.
+A decisão de utilizar apenas três serviços principais não representa uma limitação técnica, mas sim uma escolha estratégica: menos complexidade operacional, menor risco arquitetural e maior previsibilidade financeira para a gestão. Essa abordagem privilegia clareza, eficiência e controle de custos, sem comprometer desempenho ou segurança.
+
 Arquitetura Geral da Solução em Nuvem: A arquitetura proposta para o desenvolvimento de um hub de distribuição farmacêutico baseia-se em um modelo web centralizado, altamente escalável e financeiramente previsível, operando integralmente na AWS Cloud. Essa arquitetura é organizada em três camadas principais, cada uma responsável por uma função específica do negócio e suportada por serviços gerenciados da AWS.
 
 ## Descrição do Projeto
