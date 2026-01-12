@@ -44,9 +44,8 @@ Na presente solução, considera-se a infraestrutura de hardware e software como
 Em consequência, considerando a solução proposta neste projeto — composta por Amazon RDS, Amazon S3 e AWS Amplify — o custo mensal total da infraestrutura em nuvem situa-se, de forma conservadora, entre US$ 180 e US$ 280 por mês, variando conforme o volume de dados e acessos ao sistema. Em contraste, uma infraestrutura tradicional sem o uso de nuvem exigiria um investimento inicial típico entre US$ 8.000 e US$ 15.000 em servidores e licenças, além de custos mensais recorrentes com energia, refrigeração, manutenção e suporte técnico, frequentemente superiores a US$ 400 a US$ 600 por mês, mesmo quando a capacidade instalada não é plenamente utilizada.
 
 Dessa forma, a adoção da AWS converte custos fixos elevados em custos variáveis previsíveis, melhora o controle financeiro, reduz a necessidade de capital imobilizado e diminui riscos operacionais, oferecendo uma base tecnológica escalável, segura e financeiramente mais eficiente para o crescimento da empresa farmacêutica.
-Arquitetura Geral da Solução em Nuvem
 
-A arquitetura proposta para o desenvolvimento de um hub de distribuição farmacêutico baseia-se em um modelo web centralizado, altamente escalável e financeiramente previsível, operando integralmente na AWS Cloud. Essa arquitetura é organizada em três camadas principais, cada uma responsável por uma função específica do negócio e suportada por serviços gerenciados da AWS.
+Arquitetura Geral da Solução em Nuvem: A arquitetura proposta para o desenvolvimento de um hub de distribuição farmacêutico baseia-se em um modelo web centralizado, altamente escalável e financeiramente previsível, operando integralmente na AWS Cloud. Essa arquitetura é organizada em três camadas principais, cada uma responsável por uma função específica do negócio e suportada por serviços gerenciados da AWS.
 
 ## Descrição do Projeto
 O projeto de implementação de ferramentas foi dividido em 3 etapas, cada uma com seus objetivos específicos. A seguir, seráo descritas as etapas do projeto:
