@@ -7,8 +7,11 @@ Responsável: [John Peter Oyardo Manrique]
 ## Introdução
 Este relatório apresenta o processo de implementação de ferramentas de nuvem (Cloud Computing) na empresa [Abstergo Industries], realizado por [John Peter Oyardo Manrique]. 
 
-O objetivo do projeto foi elencar 3 serviços AWS, com a finalidade de realizar diminuição de custos imediatos para uma empresa farmacêutica que não possui nenhuma infraestrutura em nuvem instalada. A finalidade é realizar a diminuição imediata de custos para a empresa, a qual atua como uma farmácia distribuidora de produtos farmacêuticos para outras farmácias.Essa empresa farmacêutica funciona como um hub de distribuição e é uma revendedora de produtos para outras empresas. Atualmente, não possui experiência no uso de serviços em nuvem, nem qualquer solução de cloud instalada.
-Diante desse cenário, é necessário desenvolver um modelo de negócio em nuvem para a empresa, estruturado em três etapas e utilizando principalmente três principais serviços fornecidos na AWS, com o objetivo de estruturar e otimizar os custos operacionais da empresa de forma eficiente e escalável. Além disso, busca-se evidenciar como essa solução pode atuar como uma ferramenta de gestão financeira, auxiliando a tomada de decisão para a redução dos custos de implementação do modelo de negócio em cloud e demonstrando suas vantagens em relação a uma implementação sem o uso de nuvem.
+O objetivo do projeto é elencar três serviços da AWS com a finalidade de realizar a redução imediata de custos operacionais em uma empresa farmacêutica que não possui qualquer infraestrutura em nuvem instalada. A empresa analisada atua como uma farmácia distribuidora, funcionando como um hub de distribuição para outras farmácias, realizando a revenda de produtos farmacêuticos no modelo B2B (Business to Business).
+
+Atualmente, a organização não possui experiência no uso de serviços em nuvem, nem dispõe de soluções baseadas em cloud computing. Diante desse cenário, torna-se necessário o desenvolvimento de um modelo de negócio em nuvem, estruturado em três etapas e baseado principalmente em três serviços centrais da AWS, com o objetivo de organizar, otimizar e tornar mais eficiente a estrutura de custos operacionais da empresa, garantindo escalabilidade e previsibilidade financeira.
+
+Além disso, o projeto busca demonstrar como a adoção da computação em nuvem pode atuar como uma ferramenta de gestão financeira, apoiando a tomada de decisão estratégica para a redução de custos, ao mesmo tempo em que evidencia as vantagens econômicas, operacionais e de flexibilidade da nuvem em comparação com uma implementação tradicional baseada exclusivamente em infraestrutura física.
 
 # Objetivo Estratégico da Solução
 
