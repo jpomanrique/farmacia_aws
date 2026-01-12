@@ -29,14 +29,23 @@ A solução proposta estabelece os princípios para o desenvolvimento do modelo 
 5.	Simplicidade operacional e rápida adoção
 6.	Implementação incremental com retorno rápido
 
-A arquitetura em nuvem é concebida para endereçar três desafios centrais da distribuidora farmacêutica: (i) custos fixos elevados associados à infraestrutura local; (ii) baixa flexibilidade operacional para absorver variações de demanda; e (iii) risco financeiro decorrente da indisponibilidade de sistemas críticos.
-Para isso, a solução utiliza apenas três serviços centrais da AWS, integrados de forma coerente, assegurando que a empresa pague exclusivamente pelos recursos efetivamente utilizados, escale automaticamente conforme o volume de pedidos e elimine a necessidade de investimentos antecipados em hardware.
-O foco da solução não está na complexidade tecnológica, mas na eficiência econômica, simplicidade operacional e no rápido retorno sobre o investimento.
+A arquitetura em nuvem é concebida para endereçar três desafios centrais da distribuidora farmacêutica: 
+
+  (i) custos fixos elevados associados à infraestrutura local; 
+  (ii) baixa flexibilidade operacional para absorver variações de demanda; e 
+  (iii) risco financeiro decorrente da indisponibilidade de sistemas críticos.
+  
+Para isso, a solução utiliza apenas três serviços centrais da AWS, integrados de forma coerente, assegurando que a empresa pague exclusivamente pelos recursos efetivamente utilizados, escale automaticamente conforme o volume de pedidos e elimine a necessidade de investimentos antecipados em hardware.O foco da solução não está na complexidade tecnológica, mas na eficiência econômica, simplicidade operacional e no rápido retorno sobre o investimento.
+
 O princípio adotado consiste no uso do Modelo de Custo Variável sob Demanda (On-Demand Cost Model), fornecido pela AWS, que permite à empresa utilizar infraestrutura de tecnologia sem a necessidade de adquirir servidores ou equipamentos antecipadamente, pagando apenas pelos recursos efetivamente utilizados. Nesse modelo, os custos acompanham o volume real da operação, eliminando gastos com infraestrutura ociosa e reduzindo significativamente o risco financeiro inicial do modelo de negócio da empresa farmacêutica.
+
 Na presente solução, considera-se a infraestrutura de hardware e software como base do modelo operacional e seu impacto direto no negócio da empresa. Na prática, para este caso, evidencia-se como as soluções fornecidas pela AWS representam um diferencial relevante em relação ao modelo tradicional. Por exemplo, um banco de dados gerenciado na AWS (Amazon RDS) pode custar aproximadamente US$ 25 a US$ 40 por mês para instâncias de pequeno porte e entre US$ 120 e US$ 180 por mês para uma instância de produção de porte médio, operando 24 horas por dia, já incluindo backups automáticos e alta disponibilidade. O armazenamento de dados no Amazon S3 apresenta custos escalonáveis e otimizados, com valores médios de US$ 0,023 por GB/mês para dados ativos, US$ 0,0125 por GB/mês para dados pouco acessados (Standard-IA) e cerca de US$ 0,004 por GB/mês para arquivos históricos no Glacier (valores de referência).
+
 Em consequência, considerando a solução proposta neste projeto — composta por Amazon RDS, Amazon S3 e AWS Amplify — o custo mensal total da infraestrutura em nuvem situa-se, de forma conservadora, entre US$ 180 e US$ 280 por mês, variando conforme o volume de dados e acessos ao sistema. Em contraste, uma infraestrutura tradicional sem o uso de nuvem exigiria um investimento inicial típico entre US$ 8.000 e US$ 15.000 em servidores e licenças, além de custos mensais recorrentes com energia, refrigeração, manutenção e suporte técnico, frequentemente superiores a US$ 400 a US$ 600 por mês, mesmo quando a capacidade instalada não é plenamente utilizada.
+
 Dessa forma, a adoção da AWS converte custos fixos elevados em custos variáveis previsíveis, melhora o controle financeiro, reduz a necessidade de capital imobilizado e diminui riscos operacionais, oferecendo uma base tecnológica escalável, segura e financeiramente mais eficiente para o crescimento da empresa farmacêutica.
 Arquitetura Geral da Solução em Nuvem
+
 A arquitetura proposta para o desenvolvimento de um hub de distribuição farmacêutico baseia-se em um modelo web centralizado, altamente escalável e financeiramente previsível, operando integralmente na AWS Cloud. Essa arquitetura é organizada em três camadas principais, cada uma responsável por uma função específica do negócio e suportada por serviços gerenciados da AWS.
 
 ## Descrição do Projeto
