@@ -35,7 +35,7 @@ A arquitetura em nuvem é concebida para endereçar três desafios centrais da d
   - Baixa flexibilidade operacional para absorver variações de demanda; e 
   - Risco financeiro decorrente da indisponibilidade de sistemas críticos.
   
-Para isso, a solução utiliza apenas três serviços centrais da AWS, integrados de forma coerente, assegurando que a empresa pague exclusivamente pelos recursos efetivamente utilizados, escale automaticamente conforme o volume de pedidos e elimine a necessidade de investimentos antecipados em hardware.O foco da solução não está na complexidade tecnológica, mas na eficiência econômica, simplicidade operacional e no rápido retorno sobre o investimento.
+Para isso, a solução utiliza apenas três serviços centrais da AWS, integrados de forma coerente, assegurando que a empresa pague exclusivamente pelos recursos efetivamente utilizados, escale automaticamente conforme o volume de pedidos e elimine a necessidade de investimentos antecipados em hardware. O foco da solução não está na complexidade tecnológica, mas na eficiência econômica, simplicidade operacional e no rápido retorno sobre o investimento.
 
 O princípio adotado consiste no uso do Modelo de Custo Variável sob Demanda (On-Demand Cost Model), fornecido pela AWS, que permite à empresa utilizar infraestrutura de tecnologia sem a necessidade de adquirir servidores ou equipamentos antecipadamente, pagando apenas pelos recursos efetivamente utilizados. Nesse modelo, os custos acompanham o volume real da operação, eliminando gastos com infraestrutura ociosa e reduzindo significativamente o risco financeiro inicial do modelo de negócio da empresa farmacêutica.
 
