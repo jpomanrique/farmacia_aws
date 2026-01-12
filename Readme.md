@@ -1,7 +1,7 @@
 # RELATÓRIO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS
 
 Data: [09/01/2026]
-Empresa: Abstergo Industries 
+Empresa: Abstergo Industries. 
 Responsável: [John Peter Oyardo Manrique]
 
 ## Introdução
