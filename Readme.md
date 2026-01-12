@@ -71,7 +71,7 @@ Etapa 3:
 
 
 ## Conclusão
-A implementação de ferramentas na empresa *[Abstergo Industries] tem como esperado [Economia de recursos e custo, Escalabilidade, Elasticidade e Disponibilidade]*, o que aumentará a eficiência e a produtividade da empresa. Recomenda-se a continuidade da utilização das ferramentas implementadas e a busca por novas tecnologias que possam melhorar ainda mais os processos tegnológicos da empresa.
+A implementação de ferramentas na empresa *[Abstergo Industries] tem como esperado [Economia de recursos e custo, Escalabilidade, Elasticidade e Disponibilidade]*, o que aumentará a eficiência e a produtividade da empresa. Recomenda-se a continuidade do uso das soluções AWS implementadas, além da avaliação contínua de novas tecnologias que possam aprimorar ainda mais os processos tecnológicos da empresa.
 
 ## Anexos
 
