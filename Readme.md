@@ -43,6 +43,32 @@ Na presente solução, considera-se a infraestrutura de hardware e software como
 
 Em consequência, considerando a solução proposta neste projeto — composta por Amazon RDS, Amazon S3 e AWS Amplify — o custo mensal total da infraestrutura em nuvem situa-se, de forma conservadora, entre US$ 180 e US$ 280 por mês, variando conforme o volume de dados e acessos ao sistema. Em contraste, uma infraestrutura tradicional sem o uso de nuvem exigiria um investimento inicial típico entre US$ 8.000 e US$ 15.000 em servidores e licenças, além de custos mensais recorrentes com energia, refrigeração, manutenção e suporte técnico, frequentemente superiores a US$ 400 a US$ 600 por mês, mesmo quando a capacidade instalada não é plenamente utilizada.
 
+## Comparação de Custos – Infraestrutura Tradicional vs. AWS
+
+### 📊 Visão Financeira Inicial e Mensal (Estimativa)
+
+A tabela a seguir apresenta uma comparação objetiva entre uma infraestrutura tradicional, baseada em servidores físicos locais, e a solução proposta em nuvem utilizando os serviços Amazon S3, AWS Amplify e Amazon RDS.
+
+| Item | Infraestrutura Tradicional (Sem AWS) | Solução AWS (S3 + Amplify + RDS) |
+|-----|-------------------------------------|---------------------------------|
+| Investimento inicial (CapEx) | US$ 8.000 – US$ 15.000 (servidores, storage, licenças) | US$ 0 |
+| Servidor de banco de dados | Incluso no hardware físico | US$ 120 – US$ 180 / mês (RDS médio porte, HA + backup) |
+| Servidor web / portal | Incluso no hardware físico | US$ 20 – US$ 40 / mês (AWS Amplify) |
+| Armazenamento de dados | Discos locais + backup físico | US$ 0,023 / GB / mês (S3 Standard) |
+|  |  | US$ 0,0125 / GB / mês (S3 Standard-IA) |
+|  |  | US$ 0,004 / GB / mês (S3 Glacier) |
+| Energia e refrigeração | US$ 150 – US$ 250 / mês | US$ 0 |
+| Manutenção e suporte técnico | US$ 150 – US$ 300 / mês | Incluso nos serviços AWS |
+| **Custo mensal estimado** | **US$ 400 – US$ 600 / mês** | **US$ 180 – US$ 280 / mês** |
+| Escalabilidade | Manual, com novo investimento | Automática, sob demanda |
+| Capacidade ociosa | Alta (paga mesmo sem uso) | Inexistente (paga apenas pelo uso real) |
+| Risco de indisponibilidade | Médio a alto | Baixo (serviços gerenciados) |
+
+### Síntese Executiva da Comparação
+
+A infraestrutura tradicional exige elevado investimento inicial e mantém custos fixos altos, independentemente do nível real de utilização da capacidade instalada. Além disso, apresenta baixa flexibilidade para absorver variações de demanda e maior risco de indisponibilidade operacional.
+
+Em contraste, a solução baseada em AWS elimina completamente o investimento inicial (CapEx), reduz significativamente os custos mensais e ajusta-se automaticamente ao volume real de pedidos e acessos ao sistema. Do ponto de vista financeiro, essa abordagem melhora o fluxo de caixa, aumenta a previsibilidade orçamentária e reduz riscos operacionais, tornando-se mais adequada para o crescimento sustentável da empresa farmacêutica.
 Dessa forma, a adoção da AWS converte custos fixos elevados em custos variáveis previsíveis, melhora o controle financeiro, reduz a necessidade de capital imobilizado e diminui riscos operacionais, oferecendo uma base tecnológica escalável, segura e financeiramente mais eficiente para o crescimento da empresa farmacêutica.
 
 Arquitetura Geral da Solução em Nuvem: A arquitetura proposta para o desenvolvimento de um hub de distribuição farmacêutico baseia-se em um modelo web centralizado, altamente escalável e financeiramente previsível, operando integralmente na AWS Cloud. Essa arquitetura é organizada em três camadas principais, cada uma responsável por uma função específica do negócio e suportada por serviços gerenciados da AWS.
