@@ -31,9 +31,9 @@ A solução proposta estabelece os princípios para o desenvolvimento do modelo 
 
 A arquitetura em nuvem é concebida para endereçar três desafios centrais da distribuidora farmacêutica: 
 
-  - (i) custos fixos elevados associados à infraestrutura local; 
-  - (ii) baixa flexibilidade operacional para absorver variações de demanda; e 
-  - (iii) risco financeiro decorrente da indisponibilidade de sistemas críticos.
+  - Custos fixos elevados associados à infraestrutura local; 
+  - Baixa flexibilidade operacional para absorver variações de demanda; e 
+  - Risco financeiro decorrente da indisponibilidade de sistemas críticos.
   
 Para isso, a solução utiliza apenas três serviços centrais da AWS, integrados de forma coerente, assegurando que a empresa pague exclusivamente pelos recursos efetivamente utilizados, escale automaticamente conforme o volume de pedidos e elimine a necessidade de investimentos antecipados em hardware.O foco da solução não está na complexidade tecnológica, mas na eficiência econômica, simplicidade operacional e no rápido retorno sobre o investimento.
 
