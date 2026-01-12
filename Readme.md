@@ -2,7 +2,7 @@
 
 Data: [09/01/2026]
 Empresa: Abstergo Industries 
-ResponsÃ¡vel: [John Peter Oyardo Manrique]
+Responsável: [John Peter Oyardo Manrique]
 
 ## Introdução
 Este relatório apresenta o processo de implementação de ferramentas na empresa [Abstergo Industries], realizado por [John Peter Oyardo Manrique]. O objetivo do projeto foi elencar 3 serviços AWS, com a finalidade de realizar diminuição de custos imediatos.para uma empresa farmacêutica que não possui nenhuma infraestrutura em nuvem instalada. A finalidade é realizar a diminuição imediata de custos para a empresa, a qual atua como uma farmácia distribuidora de produtos farmacêuticos para outras farmácias.Essa empresa farmacêutica funciona como um hub de distribuição e é uma revendedora de produtos para outras empresas. Atualmente, não possui experiência no uso de serviços em nuvem, nem qualquer solução de cloud instalada.
