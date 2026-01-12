@@ -15,7 +15,7 @@ Além disso, o projeto busca demonstrar como a adoção da computação em nuvem
 
 # Objetivo Estratégico da Solução
 
-O presente projeto propõe a adoção gradual de computação em nuvem por uma empresa farmacêutica que atua como hub de distribuição B2B (Business-to-Business), atualmente sem infraestrutura em cloud. Pretende-se reduzir o investimento da empresa relacionado a altos custos fixos com servidores, softwares em geral e bases de dados, bem como mitigar a baixa elasticidade e os riscos operacionais inerentes à infraestrutura física tradicional.
+O presente projeto propõe a adoção gradual de computação em nuvem por uma empresa farmacêutica que atua como hub de distribuição B2B, atualmente sem infraestrutura em cloud. Pretende-se reduzir o investimento da empresa relacionado a altos custos fixos com servidores, softwares em geral e bases de dados, bem como mitigar a baixa elasticidade e os riscos operacionais inerentes à infraestrutura física tradicional.
 O objetivo é reduzir custos imediatos, aumentar a previsibilidade financeira e modernizar a operação, utilizando três serviços principais da AWS, implementados em três etapas.
 
 # Arquitetura da Solução AWS
