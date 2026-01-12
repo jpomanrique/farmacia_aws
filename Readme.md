@@ -11,7 +11,7 @@ O objetivo do projeto é elencar três serviços da AWS com a finalidade de real
 
 Atualmente, a organização não possui experiência no uso de serviços em nuvem, nem dispõe de soluções baseadas em cloud computing. Diante desse cenário, torna-se necessário o desenvolvimento de um modelo de negócio em nuvem, estruturado em três etapas e baseado principalmente em três serviços centrais da AWS, com o objetivo de organizar, otimizar e tornar mais eficiente a estrutura de custos operacionais da empresa, garantindo escalabilidade e previsibilidade financeira.
 
-Além disso, o projeto busca demonstrar como a adoção da computação em nuvem pode atuar como uma solução de otimização de custos para a gestão financeira, apoiando a tomada de decisão estratégica para a redução de custos, ao mesmo tempo em que evidencia as vantagens econômicas, operacionais e de flexibilidade da nuvem em comparação com uma implementação tradicional baseada exclusivamente em infraestrutura física.
+Além disso, o projeto busca demonstrar como a adoção da computação em nuvem pode atuar como uma solução de otimização do modelo de negocios da empresa para gestão financeira, apoiando a tomada de decisão estratégica para a redução de custos, ao mesmo tempo em que evidencia as vantagens econômicas, operacionais e de flexibilidade da nuvem em comparação com uma implementação tradicional baseada exclusivamente em infraestrutura física.
 
 # Objetivo Estratégico da Solução
 
